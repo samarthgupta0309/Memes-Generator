@@ -9,7 +9,7 @@ def run(meme_temp_path, top_text, bottom_text):
   meme_temp = Image.open(meme_temp_path)
   draw_meme_temp = ImageDraw.Draw(meme_temp)
   meme_temp_width, meme_temp_height = meme_temp.size
-  font = ImageFont.truetype(font="/content/impact.ttf", size=int(meme_temp_height/20))
+  font = ImageFont.truetype(font="/font/impact.ttf", size=int(meme_temp_height/20))
 
   # Taking argument
   top_text = top_text.upper()
